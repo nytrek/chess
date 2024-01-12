@@ -39,9 +39,9 @@ export const Board: React.FC<{
   const setViews = useViewStore((state) => state.setViews);
   const [moveTo, setMoveTo] = useState<Square | null>(null);
   const [moveFrom, setMoveFrom] = useState<Square | null>(null);
-  const [hasOpponent, setHasOpponent] = useState(!creator || !opponent);
   const [activeSquare, setActiveSquare] = useState<Square | null>(null);
   const [showPromotionDialog, setShowPromotionDialog] = useState(false);
+  const [hasOpponent, setHasOpponent] = useState(!!(creator && opponent));
   const [chessBoardPosition, setChessBoardPosition] = useState(game.fen());
 
   async function updateGamePosition() {
