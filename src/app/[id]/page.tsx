@@ -30,7 +30,7 @@ export default async function Page({ params }: { params: { id: string } }) {
     .limit(1)
     .single();
 
-  if (!data) return <>Board not found</>;
+  if (!data) return <>Room not found</>;
   return (
     <Wrapper
       color={data?.color as BoardOrientation | undefined}
