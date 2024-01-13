@@ -238,7 +238,7 @@ export const Board: React.FC<{
         boardOrientation={
           id === creator ? color : color === "white" ? "black" : "white"
         }
-        position={fen ?? ""}
+        position={fen ?? undefined}
       />
     </div>
   );
