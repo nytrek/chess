@@ -248,7 +248,7 @@ export const Board: React.FC<{
           table: "rooms",
         },
         (payload) => {
-          if (payload.eventType === "UPDATE") {
+          if (payload.eventType === "UPDATE" && payload.new.room_id === id) {
             if (payload.new.fen) {
               game.load(payload.new.fen);
               setTimeout(() => setChessBoardPosition(payload.new.fen), 500);
