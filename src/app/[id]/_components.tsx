@@ -263,7 +263,7 @@ export const Board: React.FC<{
     return () => {
       supabase.removeChannel(channel);
     };
-  }, [game, supabase, pathname, setViews]);
+  }, [id, game, supabase, pathname, setViews]);
   return (
     <>
       <header>
