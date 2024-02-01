@@ -30,8 +30,8 @@ dependencies:
     specifier: ^1.0.2
     version: 1.0.2(@types/react@18.2.47)(react@18.2.0)
   '@supabase/ssr':
-    specifier: ^0.0.10
-    version: 0.0.10(@supabase/supabase-js@2.39.2)
+    specifier: ^0.1.0
+    version: 0.1.0(@supabase/supabase-js@2.39.2)
   '@supabase/supabase-js':
     specifier: ^2.39.2
     version: 2.39.2
@@ -1087,8 +1087,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@supabase/ssr@0.0.10(@supabase/supabase-js@2.39.2):
-    resolution: {integrity: sha512-eVs7+bNlff8Fd79x8K3Jbfpmf8P8QRA1Z6rUDN+fi4ReWvRBZyWOFfR6eqlsX6vTjvGgTiEqujFSkv2PYW5kbQ==}
+  /@supabase/ssr@0.1.0(@supabase/supabase-js@2.39.2):
+    resolution: {integrity: sha512-bIVrkqjAK5G3KjkIMKYKtAOlCgRRplEWjrlyRyXSOYtgDieiOhk2ZyNAPsEOa1By9OZVxuX5eAW1fitdnuxayw==}
     peerDependencies:
       '@supabase/supabase-js': ^2.33.1
     dependencies:
