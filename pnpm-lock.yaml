@@ -36,8 +36,8 @@ dependencies:
     specifier: ^2.39.2
     version: 2.39.2
   chess.js:
-    specifier: 1.0.0-beta.7
-    version: 1.0.0-beta.7
+    specifier: 1.0.0-beta.8
+    version: 1.0.0-beta.8
   class-variance-authority:
     specifier: ^0.7.0
     version: 0.7.0
@@ -1594,8 +1594,8 @@ packages:
       supports-color: 7.2.0
     dev: true
 
-  /chess.js@1.0.0-beta.7:
-    resolution: {integrity: sha512-2qG/f3M9Lil/hBey2uoJy9zhNr1BWIXZngRUJFt7j1QqS5Y5Ywq8Rd3l7ZBCbyJjhsLhxTcVhv6xy7BfjC19Dw==}
+  /chess.js@1.0.0-beta.8:
+    resolution: {integrity: sha512-UngzUMXmexcQaQA/UEJuJj5vatEy34awYMD5YMOp/FW3HM7lqspp7ymYs5JAmquDq0WROtURRfSffoa/vrCCyw==}
     dev: false
 
   /chokidar@3.5.3:
